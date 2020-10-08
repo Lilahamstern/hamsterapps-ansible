@@ -1,0 +1,1 @@
+# hamsterapps-ansible
