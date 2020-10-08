@@ -1,6 +1,7 @@
-#+TITLE: Readme
+#+TITLE: Hamsterapps Ansible
 
-* Hamsterapps Ansible
+* What is this repo?
 Repository for my private ansible setup
 
-** Its work in progress
+** Current status?
+This project is during development
