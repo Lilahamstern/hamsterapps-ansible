@@ -1,0 +1,6 @@
+#+TITLE: Readme
+
+* Hamsterapps Ansible
+Repository for my private ansible setup
+
+** Its work in progress
