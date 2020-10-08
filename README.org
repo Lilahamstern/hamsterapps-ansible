@@ -5,3 +5,11 @@ Repository for my private ansible setup
 
 ** Current status?
 This project is during development
+
+** To get started
+    1. Create a file called `inventory` that will contain the server ip or domain.
+      #+begin_example
+        hamsterapps.net
+        10.0.0.33
+        172.240.13.5
+      #+end_example
