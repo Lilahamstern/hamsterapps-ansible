@@ -1,6 +1,6 @@
 #+TITLE: Hamsterapps Ansible
 
-* What is this repo?
+** What is this repo?
 Repository for my private ansible setup
 
 ** Current status?
