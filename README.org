@@ -13,3 +13,30 @@ This project is during development
         10.0.0.33
         172.16.250.134
       #+end_example
+    2. Ping inventory
+      #+BEGIN_SRC shell
+        ansible all --key-file ~/.ssh/ansible -u root -i inventory -m ping
+      #+END_SRC
+
+      #+RESULTS:
+      | hamsterapps.net               |                 |   | SUCCESS | => | { |
+      | ansible_facts                 | {               |   |         |    |   |
+      | discovered_interpreter_python | /usr/bin/python |   |         |    |   |
+      | },                            |                 |   |         |    |   |
+      | changed                       | false,          |   |         |    |   |
+      | ping                          | pong            |   |         |    |   |
+      | }                             |                 |   |         |    |   |
+      | 10.0.0.33                     |                 |   | SUCCESS | => | { |
+      | ansible_facts                 | {               |   |         |    |   |
+      | discovered_interpreter_python | /usr/bin/python |   |         |    |   |
+      | },                            |                 |   |         |    |   |
+      | changed                       | false,          |   |         |    |   |
+      | ping                          | pong            |   |         |    |   |
+      | }                             |                 |   |         |    |   |
+      | 172.16.250.134                |                 |   | SUCCESS | => | { |
+      | ansible_facts                 | {               |   |         |    |   |
+      | discovered_interpreter_python | /usr/bin/python |   |         |    |   |
+      | },                            |                 |   |         |    |   |
+      | changed                       | false,          |   |         |    |   |
+      | ping                          | pong            |   |         |    |   |
+      | }                             |                 |   |         |    |   |
